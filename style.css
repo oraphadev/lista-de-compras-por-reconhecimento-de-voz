@@ -1,0 +1,69 @@
+/*
+ * - AUTHOR: Raphael Lima
+ * - CHANNEL: Profissão T.I
+ * - VIDEO: RECONHECIMENTO DE VOZ COM JAVASCRIPT - LISTA DE COMPRAS #01
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Google+Sans);
+
+* {
+	font-family: 'Google Sans';
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #212121;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.box-list {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 25px;
+	border-radius: 5px;
+	height: 90vh;
+}
+
+button {
+	padding: 10px 15px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	color: #FFFFFF;
+	margin: 10px 2px;
+	font-size: 1em;
+}
+
+#btn-falar {
+	background-color: green;
+}
+
+#btn-imprimir {
+	background-color: blue;
+}
+
+ol {
+	position: relative;
+	width: 100%;
+	text-align: left;
+}
+
+li {
+	padding: 8px;
+}
+
+li:hover {
+	background-color: red;
+}
+
+@media print {
+	button, p {
+		display: none;
+	}
+}
